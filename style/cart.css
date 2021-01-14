@@ -1,0 +1,222 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap"); */
+
+.grid {
+    width: 100%;
+    display: block;
+    padding: 0;
+}
+*{
+    box-sizing: border-box;
+}
+.grid.wide {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -4px;
+    margin-right: -4px;
+    font-family: "Poppins", sans-serif;
+}
+.rows{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img{
+    transition: transform .5s ease;
+}
+img:hover
+{
+    transform: scale(1,1);
+}
+
+.col {
+    padding-left: 4px;
+    padding-right: 4px;
+}
+.l-4 {
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%;
+}
+.l-8 {
+    flex: 0 0 66.66667%;
+    max-width: 66.66667%;
+ 
+}
+
+.btng{
+    border-radius: 15px;
+    cursor: pointer;
+    height: 40px;
+    margin-bottom:10px;
+}
+
+.btng:hover{
+    background-color: rgb(168, 75, 75);
+    color:white;
+    transform: scale(1.02);
+}
+.ivoucher{
+    width: 75%;
+    border-radius: 5px;
+}
+.ap{
+    background-color: #5e93d3;
+    width: 20%;
+    margin-left: auto;
+}
+.tt{
+    width: 100%;
+   
+    background-color: #DC3545;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.mh{
+    width: 100%;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: 'Courier New', Courier, monospace;
+}
+.giatam{
+    margin-left: auto;
+}
+.thanhtien{
+    margin-left: auto;
+}
+.zoom
+{
+    transition: 2s;
+}
+.zoom:hover img
+{
+    transform: scale(1.1);
+}
+.spimg{
+    padding: 4px;
+   
+}
+
+
+.spinput{
+    
+    border: none;
+    background: transparent;
+    width: 35px;
+    text-align: center;
+    font-size: 13px;
+    appearance: none;
+    margin: 0px;
+}
+.quantity
+{
+    overflow: hidden;
+    position: relative;
+    width: 160px;
+    padding: 0 40px;
+    margin-left: auto;
+    height: 60px;
+    margin-top: 20px;
+    margin-right: 10px;
+
+}
+.quantity .minus, .quantity .plus, .quantity input
+{
+    float: left;
+    line-height: 38px;
+    text-align: center;
+    width: 40px;
+    background-color: #fff;
+    flex: 1;
+}
+.quantity .minus, .quantity .plus
+{
+    position: absolute;
+    top: 0;
+    height: 60%;
+    border: 1px solid #696767;
+    font-size: 20px;
+}
+
+.quantity input
+{
+    border: none;
+    background: transparent;
+    width: 80px;
+    font-size: 15px;
+    appearance: none;
+    border-top: 1px solid #696767;
+    border-bottom: 1px solid #696767;
+    height: 36px;
+}
+.quantity .minus
+{
+    left: 0;
+    border-radius: 5px 0 0 5px;
+}
+
+.quantity .plus
+{
+    right: 0;
+    border-radius: 0 5px 5px 0;
+}
+
+
+
+
+/* .cnsl{
+    margin-left: auto;
+    border: solid 1px ;
+    border-radius: 5px;
+    max-height: 25px;
+    margin-right: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+} */
+.tenmon{
+    padding-left: 20px;
+    margin: 0;
+    font-size: 25px;
+    min-width: 50px;
+}
+.clgiohang{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.gia
+{
+   margin-left: 20px;
+}
+
+
+@media screen and (max-width:800px){
+    .clgiohang{
+        display: none;
+    }
+    .rows{
+        display: inline;
+    }
+    
+    .l-8{
+        max-width: 100%;
+    }
+    .l-4{
+        max-width: 100%;
+    }
+    .somon{
+        display: none;
+    }
+    .giatam{
+        display: none;
+    }
+    .right{
+        width: 100%;
+    }
+    
+}
+

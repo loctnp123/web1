@@ -1,0 +1,154 @@
+.menu-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+#menu{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    max-width: 350px;
+}
+#menu ul{
+    list-style: none;
+    padding: 0px;
+}
+#menu li{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.label span{
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    padding-top: 15px;
+    padding-left: 10px;
+    border: none;
+    height: 40px;
+    width: 300px;
+    background: white;
+    transition: background 0.4s;
+    font-family: Roboto,sans-serif;
+    font-weight: 800;
+    text-align: left;
+    font-size: 18px;
+    cursor: pointer;
+}
+.label:hover span,.radio:checked+span{
+    background-color: var(--red);
+    color: white;
+}
+.label:hover span::after{
+    content: " >";
+    
+}
+.radio{
+    display: none;
+}
+.cuisine{
+    flex: 2;
+    width: auto;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.cuisine-item{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 20px;
+    box-shadow: 0px 10px 14px 0px rgba(0, 0, 0, 0.4);
+    border-radius: 0px 0px 7px 7px;
+}
+.cuisine-item>div:nth-child(1){
+    display: flex;
+    flex-direction: column;
+}
+.cuisine-item:hover img{
+    transform: scale(1.1);
+}
+.cuisine-item-img{
+    width: 100%;
+    overflow: hidden;
+}
+.cuisine-item-img img{
+    width: 100%;
+    border-radius: 7px 7px 0px 0px;
+    transition: 0.8s;
+}
+.cuisine-item-detail{
+    padding: 10px;
+    min-height: 200px;
+    cursor: pointer;
+}
+.cuisine-item-detail:hover h2{
+    color: var(--red);
+}
+.cuisine-item-detail span{
+    cursor: text;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: unset;
+}
+.cuisine-buttons{
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+.cuisine-buttons button{
+    height: 50px;
+    border: var(--red) 2px solid;
+    border-radius: 5px;
+    width: 48%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    background: white;
+    font-weight: 900;
+    color: var(--red);
+    cursor: pointer;
+    bottom: 5px;
+    transition: .5s;
+}
+.cuisine-buttons button:nth-child(2){
+    background: var(--red);
+    color: white;
+}
+.cuisine-buttons button:hover{
+    background: black;
+    color: white;
+    border: none;
+}
+#backtomenu{
+    display: none;
+    color: black;
+    font-size: 30px;
+    width: 100%;
+}
+@media screen and (max-width:950px){
+    #menu{
+        display: none;
+    }
+    .cuisine-item{
+        width: 100%;
+    }
+    .cuisine-item>div:nth-child(1){
+        flex-direction: row;
+    }
+    .cuisine-item img{
+        min-width: 250px;
+    }
+    .cuisine-item-img{
+        min-width: 250px;
+    }
+    .cuisine>h2{
+        display: none;
+    }
+    #backtomenu{
+        margin-top: 50px;
+        display: unset;
+    }
+}

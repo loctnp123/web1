@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="style/kfc.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <title>Order KFC Online Menu | KFC Menu For Sharing</title>
+    <link rel="icon" href="img/icon.png">
+   
+    <link rel="stylesheet" href="style/cart.css">
+</head>
+
+<body ng-app="kfcApp" ng-controller="pickupController">
+    <header id="header">
+        <div>
+            <a href="Homepage.html">
+                <img src="img/icon.png" alt="">
+            </a>
+            <div id="header-link">
+                <a href="Team15_Cart.html"><i class="fa fa-shopping-basket" aria-hidden="true"></i> <span id="total">$10.00</span></a>
+                <a href="Team15_LogIn.html">Sign In
+                    <i class="fa fa-user" aria-hidden="true"></i>
+                </a>
+                <a href="Team15_Contact.html"><i class="fa fa-phone" aria-hidden="true"></i> Contact us</a>
+                <a href="Team15_Introduce.html"><i class="fa fa-info" aria-hidden="true"></i> Introduce</a>
+            </div>
+        </div>
+        <nav>
+            <div>
+                <a class="active" href="Team15_PickUp.html"><img src="img/shop.png" alt="">PICKUP</a><a href="Team15_Delivery.html"><img src="img/moto.png" alt="">DELIVERY</a><a href=""><img src="img/cuisine.png" alt="">CATERING</a>
+            </div>
+            <!-- <div>
+                <a href="">Set your KFC store to see local menu and pricing</a>
+            </div> -->
+        </nav>
+    </header>
+    <main>
+        <div class="clgiohang">
+            YOUR CART <img src="giohang/red_shoppictbasket_1484336512-1-removebg-preview.png" height="40px" width="40px" style="margin-bottom: -7px;" alt="">
+            </div>
+            <div class="grid wide">
+                <div class="rows">
+                    <div class="left col l-8" >
+                        <div class="row">
+                            <div class="zoom">
+                                <img class="spimg" src="img/drinks/3.jpg" alt="" height="150px" width="200px" >
+                            </div>
+                            
+                            <div>
+                                <div class="tenmon">7up</div>
+                                <div class="gia">3$</div>
+                               
+                                <a class="tenmon" href=""><img src="giohang/image-removebg-preview.png" alt="" height="30px" width="30px"></a>
+                                
+                            </div>
+                            <div class="quantity">
+                                <span class="minus">-</span>
+                                <input type="tel" cla value="1">
+                                <span class="plus">+</span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="zoom">
+                                <img class="spimg" src="img/chicken/1.jpg" alt="" height="150PX" width="200px" >
+                            </div>
+                            <div>
+                                <div class="tenmon">1 Piece of Chicken</div>
+                                <div class="gia">3$ </div>
+                               
+                                <a class="tenmon" href=""><img src="giohang/image-removebg-preview.png" alt="" height="30px" width="30px"></a>
+                                
+                            </div>
+                            <div class="quantity">
+                                <span class="minus">-</span>
+                                <input type="tel" cla value="1">
+                                <span class="plus">+</span>
+                            </div>
+                        </div>
+                        <div class="row spOrder">
+                            <div class="zoom">
+                                <img class="spimg" src="img/chicken/2.jpg" alt="" height="150PX" width="200px" >
+                            </div>
+                            
+                            <div>
+                                <div class="tenmon">6 Piece of Chicken</div>
+                                <div class="gia">14.95$</div>
+                               
+                                <a class="tenmon" href=""><img src="giohang/image-removebg-preview.png" alt="" height="30px" width="30px"></a>
+                                
+                            </div>
+                            <div class="quantity">
+                                <span class="minus">-</span>
+                                <input type="tel" cla value="1">
+                                <span class="plus">+</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right col l-4">
+                        <div class="row">
+                            <div class="somon">
+                                Total item: 3
+                            </div>
+                            <div class="giatam">
+                               20.95$
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="voucher row">
+                            <input class="ivoucher" type="text" placeholder="Voucher" name="" id="">
+                        <button class="btng ap">
+                            Apply
+                        </button>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <h2 class="tongthanhtien">Total</h2>
+                            <h2 class="thanhtien">20.95$</h2>
+                        </div>
+                        <div>
+                            <button class="btng tt" onclick="location.href='Team15_Delivery.html'" >Thanh toán</button>
+                        </div>
+                        <div>
+                            <button class="btng mh" onclick="location.href='Team15_PickUp.html'"
+                            >TIếp tục mua hàng</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </main>
+    <footer>
+        <div>
+            <h1>Find your nearest restaurant</h1>
+           
+        </div>
+        <div ng-controller="footerController">
+            <ul ng-repeat="item in footer" id="{{item.link}}">
+                <a class="btn" href="#{{item.link}}">{{item.content}}</a>
+                <div class="submenu">
+                    <li ng-repeat="detail in item.details" ><a href={{detail.link}}>{{detail.content}}</a></li>
+                </div>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <li><a href="">Terms</a></li>
+                <li><a href="">Privacy</a></li>
+                <li><a href="">Yum</a></li>
+            </ul>
+            © 2020 KFC Australia. All rights reserved. Version: 3.4.7647.31628
+        </div>
+    </footer>
+    <script src="kfc.js"></script>
+</body>
+
+</html>

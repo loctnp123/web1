@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="style/kfc.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <title>Order KFC Online Menu | KFC Menu For Sharing</title>
+    <link rel="icon" href="img/icon.png">
+    <link rel="stylesheet" href="/style/introduce.css">
+</head>
+<body ng-app="kfcApp" ng-controller="pickupController">
+    <header id="header">
+        <div>
+            <a href="Homepage.html">
+                <img src="img/icon.png" alt="">
+            </a>
+            <div id="header-link">
+                <a href="Team15_Cart.html"><i class="fa fa-shopping-basket" aria-hidden="true"></i> <span id="total">$0.00</span></a>
+                <a href="Team15_LogIn.html">Sign In
+                    <i class="fa fa-user" aria-hidden="true"></i>
+                </a>
+                <a href="Team15_Contact.html"><i class="fa fa-phone" aria-hidden="true"></i> Contact us</a>
+                <a href="Team15_Introduce.html"><i class="fa fa-info" aria-hidden="true"></i> Introduce</a>
+            </div>
+        </div>
+        <nav>
+            <div>
+                <a href="Team15_PickUp.html"><img src="img/shop.png" alt="">PICKUP</a><a href="Team15_Delivery.html"><img src="img/moto.png" alt="">DELIVERY</a><a href=""><img src="img/cuisine.png" alt="">CATERING</a>
+            </div>
+            <div>
+                <a href="">Set your KFC store to see local menu and pricing</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div id="head">
+            <img src="/img/introduce/12.jpg" alt="" id="main1">
+            <h1>ABOUT OUR COMPANY</h1>
+        </div>
+        <div class="row">
+            <div id="content1">
+                <h3>About us</h3>
+                <p>KFC landed in Australia in 1968 with our first restaurant in Guildford, Sydney NSW. That was a time when long hair, flower crowns and lava lamps were still totally groovy, dude. Today we serve over 2 million customers a week across 650+ restaurants. And even after all these years, the original secret remains under lock and key in our headquarters in Kentucky, USA. And no, we'll never tell. Nice try.</p>
+            </div>
+            <div id="content2">
+                <img src="/img/introduce/5.jpg" alt="" id="main2">
+                <p><b>We pride ourselves on using quality chicken and local ingredients from trusted suppliers.</b></p>
+            </div>
+        </div>
+        <div class="row">
+            <div id="content3">
+                <img src="/img/introduce/13.jpg" alt="" id="main3">
+            </div>
+            <div id="content4">
+                <h3>Our history</h3>
+                <p>It all began with the man, the myth, the legend himself. In 1930, in a humble service station in Corbin, Kentucky, 40-year old Harland Sanders began feeding hungry travellers. Sanders spent the next nine years (now that's dedication) perfecting his secret blend of 11 herbs and spices, as well as the basic cooking technique we still use today. There are now over 20,000 KFC outlets in more than 125 countries and territories around the world. Not bad, eh?</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div>
+            <h1>Find your nearest restaurant</h1>
+            <button>KFC NEAR ME</button>
+        </div>
+        <div ng-controller="footerController">
+            <ul ng-repeat="item in footer" id="{{item.link}}">
+                <a class="btn" href="#{{item.link}}">{{item.content}}</a>
+                <div class="submenu">
+                    <li ng-repeat="detail in item.details" ><a href={{detail.link}}>{{detail.content}}</a></li>
+                </div>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <li><a href="">Terms</a></li>
+                <li><a href="">Privacy</a></li>
+                <li><a href="">Yum</a></li>
+            </ul>
+            © 2020 KFC Australia. All rights reserved. Version: 3.4.7647.31628
+        </div>
+    </footer>
+    <script src="kfc.js"></script>
+</body>
+</html>

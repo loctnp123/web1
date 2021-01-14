@@ -1,0 +1,132 @@
+:root{
+    --red:#cd3545;
+}
+body{
+    background: url(https://wallpapercave.com/wp/wp1939503.jpg) no-repeat;
+    background-size: 150%;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -16px;
+    text-align: left;
+}
+
+.col-30 {
+    flex: 30%;
+}
+
+.col-50 {
+    flex: 100%;
+}
+
+.col-70 {
+    flex: 60%;
+}
+
+
+.col-70 {
+    padding: 0 16px;
+}
+
+.container-checkout {
+    color: white;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid rgba( 255, 255, 255, 0.4 );
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur(4.0px);
+    -webkit-backdrop-filter: blur(4.0px);
+    border-radius: 10px;
+    
+}
+
+.input-checkout {
+    width: 90%!important;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid var(--red);
+    border-radius: 3px;
+    border-radius: 12px;
+    font-family: 'Dancing Script', cursive
+}
+
+.combobox {
+    width: 90%;
+    margin-bottom: 20px;
+    padding: 15px 17px;
+    border: 1px solid var(--red);
+    border-radius: 4px;
+    font-size:16px;
+    border-radius: 12px;
+}
+
+label {
+    margin: 10px 0px;
+    display: block;
+    font-family: 'Roboto Slab', serif;
+}
+
+.icon-container {
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 24px;
+}
+
+.btn1 {
+    background-color:var(--red);
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    font-size: bold;
+    transition: .5s;
+}
+.btn1:hover {
+    background-color: black;
+    
+}
+h2
+{
+    font-size:40px; 
+    margin-bottom:20px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.tenmonan {
+    color: red;
+    text-decoration: none;
+    font-family: 'Patrick Hand', cursive;
+}
+
+hr {
+    border: 1px solid lightgrey;
+}
+
+span.price {
+    float: right!important;
+    color: black;
+
+  
+}
+@media (max-width:1200px){
+    body{
+        background-size: 700%;
+    }
+}
+
+@media (max-width: 800px) {
+    .row {
+        flex-direction: column-reverse;
+    }
+
+    .col-30 {
+        margin-bottom: 20px;
+    }
+}

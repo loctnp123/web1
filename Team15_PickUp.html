@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="style/kfc.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <title>Order KFC Online Menu | KFC Menu For Sharing</title>
+    <link rel="icon" href="img/icon.png">
+</head>
+<body ng-app="kfcApp" ng-controller="pickupController">
+    <header id="header">
+        <div>
+            <a href="Homepage.html">
+                <img src="img/icon.png" alt="">
+            </a>
+            <div id="header-link">
+                <a href="Team15_Cart.html"><i class="fa fa-shopping-basket" aria-hidden="true"></i> <span id="total">$0.00</span></a>
+                <a href="Team.html">Sign In
+                    <i class="fa fa-user" aria-hidden="true"></i>
+                </a>
+                <a href="Team15_Contact.html"><i class="fa fa-phone" aria-hidden="true"></i> Contact us</a>
+                <a href="Team15_Introduce.html"><i class="fa fa-info" aria-hidden="true"></i> Introduce</a>
+            </div>
+        </div>
+        <nav>
+            <div>
+                <a class="active" href="Team15_PickUp.html"><img src="img/shop.png" alt="">PICKUP</a><a href="Team15_Delivery.html"><img src="img/moto.png" alt="">DELIVERY</a><a href=""><img src="img/cuisine.png" alt="">CATERING</a>
+            </div>
+            <div>
+                <a href="">Set your KFC store to see local menu and pricing</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <h1>MENU</h1>
+        <div>
+            <a class="item" ng-repeat="item in items" href="Team15_Menu.html?id={{item.link}}">
+                <div class="img-container">
+                    <img src={{item.img}} alt="">
+                </div>
+                <h2>{{item.content}}</h2>
+            </a>
+        </div>
+    </main>
+    <footer>
+        <div>
+            <h1>Find your nearest restaurant</h1>
+            <button>KFC NEAR ME</button>
+        </div>
+        <div ng-controller="footerController">
+            <ul ng-repeat="item in footer" id="{{item.link}}">
+                <a class="btn" href="#{{item.link}}">{{item.content}}</a>
+                <div class="submenu">
+                    <li ng-repeat="detail in item.details" ><a href={{detail.link}}>{{detail.content}}</a></li>
+                </div>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <li><a href="">Terms</a></li>
+                <li><a href="">Privacy</a></li>
+                <li><a href="">Yum</a></li>
+            </ul>
+            © 2020 KFC Australia. All rights reserved. Version: 3.4.7647.31628
+        </div>
+    </footer>
+    <script src="kfc.js"></script>
+</body>
+</html>

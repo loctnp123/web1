@@ -1,0 +1,666 @@
+[
+    {
+        "img":"img/pickup/newproducts.jpg",
+        "content":"New Products",
+        "link":"newproducts",
+        "items":[
+            {
+                "img":"img/newproduct/1.jpg",
+                "name":"Double Tender Burger Box ",
+                "price":"11.25",
+                "detail":"Burger with 1 Piece Original Recipe Chicken, 1 Snack Popcorn Chicken, 1 Portion of Chips, 1 ..."
+            },
+            {
+                "img":"img/newproduct/2.jpg",
+                "name":"Double Tender Burger Combo ",
+                "price":"7.45",
+                "detail":"Burger with 1 Regular Chips and 1 Regular Drink"
+                
+            },
+            {
+                
+                "img":"img/newproduct/3.jpg",
+                "name":"Double Tender Burger  ",
+                "price":"4.95",
+                "detail":""
+            },
+            {
+                
+                "img":"img/newproduct/4.jpg",
+                "name":"Go Bucket 1 Original Tender",
+                "price":"3.95",
+                "detail":"1 Tender with 1 Portion of Chips."
+            },
+            {
+                "img":"img/newproduct/5.jpg",
+                "name":"Go Bucket Popcorn Chicken",
+                "price":"3.95",
+                "detail":"Popcorn Chicken with 1 Portion of Chips."
+            },
+            {
+                "img":"img/newproduct/6.jpg",
+                "name":"Go Bucket 2 Wicked Wings",
+                "price":"3.95",
+                "detail":"2 Wicked Wings with 1 Portion of Chips."
+            },
+            {
+                "img":"img/newproduct/7.jpg",
+                "name":"Go Bucket 3 Nuggets",
+                "price":"3.95",
+                "detail":"3 Nuggets with 1 Portion of Chips."
+            },
+            {
+                "img":"img/newproduct/8.jpg",
+                "name":"Go Bucket 3 Nuggets",
+                "price":"42.95",
+                "detail":"15 Pieces Original Recipe Chicken, 18 Nuggets, 3 Large Chips, 1 Large Potato & Gravy, 1 Larg..." 
+            },
+            {
+                    
+                "img":"img/newproduct/9.jpg",
+                "name":"ADD 2 Sides for $5.95",
+                "price":"42.95",
+                "detail":"**Please Note: Due to packaging supply issues we have temporarily removed Large Potato & Gra..."   
+            }
+        ]
+    },
+    {
+        "img":"img/pickup/1.jpg",
+        "content":"Staying In Menu",
+        "link":"stayinginmenu",
+        "items":[
+            {
+                "img":"img/stayinginmenu/1.jpg",
+                "name":"Family Feast",
+                "price":"30.95",
+                "detail":"10 Pieces Original Recipe Chicken, 2 Large Chips, 1 Large Coleslaw, 1 Large Potato & Gravy a..."
+        
+            },
+            {
+                "img":"img/stayinginmenu/2.jpg",
+                "name":"Giant Feast",
+                "price":"42.95",
+                "detail":"15 Pieces Original Recipe Chicken, 18 Nuggets, 3 Large Chips, 1 Large Potato & Gravy, 1 Larg..."
+        
+            },
+            {
+                "img":"img/stayinginmenu/3.jpg",
+                "name":"Family Burger Box",
+                "price":"27.95",
+                "detail":"2 Burgers & 2 Twisters, 6 Nuggets, 1 Regular Popcorn Chicken, 2 Large Chips and 1 Dipping Sa..."
+            },
+            {
+                
+                "img":"img/stayinginmenu/4.jpg",
+                "name":"Zinger Burger Box",
+                "price":"11.45",
+                "detail":"Burger with 3 Wicked Wings, 1 Portion of Chips, 1 Regular Potato & Gravy and 1 Regular Drink..."
+            },
+            {
+                "img":"img/stayinginmenu/5.jpg",
+                "name":"3 Piece Box",
+                "price":"11.95",
+                "detail":"3 Pieces Original Recipe Chicken, 1 Dinner Roll, 1 Portion of Chips, 1 Regular Potato & Grav..."
+            },
+            {
+                "img":"img/stayinginmenu/6.jpg",
+                "name":"Orginal Tenders Box",
+                "price":"11.75",
+                "detail":"3 Tenders, 1 Snack Popcorn, 1 Portion of Chips, 1 Regular Potato & Gravy, 1 Aioli Dipping Sa..."
+            },
+            {
+                "img":"img/stayinginmenu/7.jpg",
+                "name":"Orginal Tenders Box",
+                "price":"10.95",
+                "detail":"Burger with 1 Pc Original Recipe Chicken, 1 Portion of Chips, 1 Regular Potato & Gravy and 1..."
+            }
+        ]
+    },
+    {
+        "img":"img/pickup/2.jpg",
+        "content":"Shared Meals",
+        "link":"sharedmeals",
+        "items":[
+            {   "img":"img/sharedmeals/1.jpg",
+                "name":"Gain Feast",
+                "price":"42.95",
+                "detal":"15 Pieces Original Recipe Chicken, 18 Nuggets, 3 Large Chips, 1 Large Potato & Gravy, 1 Larg..."
+        
+            },
+            {
+                "img":"img/sharedmeals/2.jpg",
+                "name":"Mixed Feast",
+                "price":"24.95",
+                "detal":"4 Pieces Original Recipe Chicken, 6 Original Tenders, 6 Nuggets, 2 Large Chips and 3 Dipping..."
+            },
+            {
+                "img":"img/sharedmeals/3.jpg",
+                "name":"Family Feast",
+                "price":"30.95",
+                "detal":"10 Pieces Original Recipe Chicken, 2 Large Chips, 1 Large Coleslaw, 1 Large Potato & Gravy a..."
+            },
+            {
+                "img":"img/sharedmeals/4.jpg",
+                "name":"Family Burger Box",
+                "price":"27.95",
+                "detal":"2 Burgers & 2 Twisters, 6 Nuggets, 1 Regular Popcorn Chicken, 2 Large Chips and 1 Dipping Sa..."
+            },
+            {
+                
+                "img":"img/sharedmeals/5.jpg",
+                "name":"ADD 2 Sides for $5,95",
+                "price":"5.95",
+                "detal":"**Please Note: Due to packaging supply issues we have temporarily removed Large Potato & Gra..."
+            }
+        
+        ]
+    },
+    {
+        "img":"img/pickup/3.jpg",
+        "content":"Boxed Meals",
+        "link":"boxedmeals",
+        "items":[
+            {       
+                "img":"img/boxedmeals/1.jpg",
+                "name":"Double Tender Burger  ",
+                "price":"11.25",
+                "detail":"Burger with 1 Piece Original Recipe Chicken, 1 Snack Popcorn Chicken, 1 Portion of Chips, 1 ..."
+            },
+            {
+                "img":"img/boxedmeals/2.jpg",
+                "name":"Zinger Stacker Birger",
+                "price":"14.95",
+                "detail":"Burger with 3 Wicked Wings, 1 Portion of Chips, 1 Regular Potato & Gravy and 1 Regular Drink..."
+            },
+            {
+                "img":"img/boxedmeals/3.jpg",
+                "name":"3 Piece Box",
+                "price":"11.95",
+                "detail":"3 Pieces Original Recipe Chicken, 1 Dinner Roll, 1 Portion of Chips, 1 Regular Potato & Grav..."
+            },
+            {
+                "img":"img/boxedmeals/4.jpg",
+                "name":"Original Tenders Box",
+                "price":"11.75",
+                "detail":"3 Tenders, 1 Snack Popcorn, 1 Portion of Chips, 1 Regular Potato & Gravy, 1 Aioli Dipping Sa..."
+            },
+            {
+                
+                "img":"img/boxedmeals/5.jpg",
+                "name":"Ultimate Box",
+                "price":"10.95",
+                "detail":"Burger with 1 Piece Original Recipe Chicken, 1 Portion of Chips, 1 Regular Potato & Gravy an..."
+            },
+            {
+                "img":"img/boxedmeals/6.jpg",
+                "name":"Zinger Burger Box",
+                "price":"11.45",
+                "detail":"Burger with 3 Wicked Wings, 1 Portion of Chips, 1 Regular Potato & Gravy and 1 Regular Drink..."
+            },
+            {
+                "img":"img/boxedmeals/7.jpg",
+                "name":"BBQ Bacon Stacker Burger Box",
+                "price":"15.45",
+                "detail":"Burger with 1 Piece Original Recipe Chicken, 1 Portion of Chips, 1 Regular Potato & Gravy an..."
+            },
+            {
+                "img":"img/boxedmeals/8.jpg",
+                "name":"Original Bacon & Cheese Burger Box",
+                "price":"11.45",
+                "detail":"Burger with 1 Piece Original Recipe Chicken, 1 Portion of Chips, 1 Regular Potato & Gravy an..."
+            },
+            {
+                "img":"img/boxedmeals/9.jpg",
+                "name":"Zinger Bacon& Cheese Burger Box",
+                "price":"11.95",
+                "detail":"Burger with 3 Wicked Wings, 1 Portion of Chips, 1 Regular Potato & Gravy and 1 Regular Drink..."
+            }
+        ]
+    },
+    {
+        "img":"img/pickup/4.jpg",
+        "content":"Burgers",
+        "link":"burgers",
+        "items":[
+            {   "img":"img/burgers/1.jpg",
+                "name":"Double Tender Burger Combo",
+                "price":"7.45",
+                "deatail":"Burger with 1 Regular Chips and 1 Regular Drink."
+                
+            },
+            {   "img":"img/burgers/1.jpg",
+                "name":"Double Tender Burger ",
+                "price":"4.95",
+                "deatail":""
+            },
+            {
+                "img":"img/burgers/3.jpg",
+                "name":"Zinger Stacker Burger Combo",
+                "price":"11.45",
+                "deatail":"Burger with 1 Regular Chips and 1 Regular Drink"
+            },
+            {
+                
+                "img":"img/burgers/4.jpg",
+                "name":"Zinger Stacker Burger",
+                "price":"8.95",
+                "deatail":"Burger with 1 Regular Chips and 1 Regular Drink"
+            },
+            {
+                "img":"img/burgers/5.jpg",
+                "name":"Zinger  Burger",
+                "price":"5.95",
+                "deatail":"Burger with 1 Regular Chips and 1 Regular Drink"
+            },
+            {
+                "img":"img/burgers/6.jpg",
+                "name":"BBQ Bacon Stacker Burger Combo",
+                "price":"12.45",
+                "deatail":"Burger with 1 Regular Chips and 1 Regular Drink"
+            },
+            {
+                "img":"img/burgers/7.jpg",
+                "name":"BBQ Bacon Stacker Burger",
+                "price":"9.95",
+                "deatail":""
+            },
+            {
+                
+                "img":"img/burgers/8.jpg",
+                "name":"Original Bacon & Cheese Burger Combo",
+                "price":"9.95",
+                "deatail":"Burger with 1 Regular Chips and 1 Regular Drink"
+            },
+            {
+                "img":"img/burgers/9.jpg",
+                "name":"Original Bacon & Cheese Burger",
+                "price":"9.95",
+                "deatail":""
+            },
+            {
+                "img":"img/burgers/10.jpg",
+                "name":"Zinger Bacon & Cheese Burger Combo",
+                "price":"9.95",
+                "deatail":"Burger with 1 Regular Chips and 1 Regular Drink"
+            },
+            {
+                "img":"img/burgers/11.jpg",
+                "name":"Zinger Bacon & Cheese Burger",
+                "price":"6.95",
+                "deatail":""
+            }
+        ]
+    },
+    {
+        "img":"img/pickup/5.jpg",
+        "content":"Twisters",
+        "link":"twisters",
+        "items":[
+            {   
+                "img":"img/twisters/1.jpg",
+                "name":"Original Recipe Twister Combo",
+                "price":"9.95",
+                "detail":"Twister with 1 Regular Chips and 1 Regular Drink."
+            },
+            {
+                "img":"img/twisters/2.jpg",
+                "name":"Original Recipe Twister",
+                "price":"6.95",
+                "detail":""
+            },
+            
+            {
+                "img":"img/twisters/3.jpg",
+                "name":"Original Supercharged Twister Combo",
+                "price":"9.95",
+                "detail":"Twister with 1 Regular Chips and 1 Regular Drink"
+            },
+            {
+                "img":"img/twisters/4.jpg",
+                "name":"Original Supercharged Twister Combo",
+                "price":"6.95",
+                "detail":""
+            }
+        ]
+    },
+    {
+        "img":"img/pickup/6.jpg",
+        "content":"Chicken",
+        "link":"chicken",
+        "items":[
+            {   "img":"img/chicken/1.jpg",
+                "name":"1 Piece of Chicken",
+                "price":"3.00",
+                "detail":""
+            },
+            {
+                "img":"img/chicken/2.jpg",
+                "name":"6 Piece of Chicken",
+                "price":"14.95",
+                "detail":""
+            },
+            {
+                "img":"img/chicken/3.jpg",
+                "name":"21 Piece of Chicken",
+                "price":"34.95",
+                "detail":""
+            },
+            {
+                "img":"img/chicken/4.jpg",
+                "name":"Regular Popcorn Chicken Combo",
+                "price":"8.95",
+                "detail":"Regular Popcorn, 1 Regular Chips and 1 Regular Drink."
+            },
+            {
+                
+                "img":"img/chicken/5.jpg",
+                "name":"Regular Popcorn Chicken",
+                "price":"5.95",
+                "detail":""
+            },
+            {
+                
+                "img":"img/chicken/6.jpg",
+                "name":"Maxi Popcorn Chicken Combo ",
+                "price":"10.95",
+                "detail":"Maxi Popcorn, 1 Regular Chips and 1 Regular Drink."
+            },
+            {
+                      
+                "img":"img/chicken/7.jpg",
+                "name":"Maxi Popcorn Chicken ",
+                "price":"7.95",
+                "detail":""
+            },
+            {
+                  
+                "img":"img/chicken/8.jpg",
+                "name":"3 Wicked Wings Combo ",
+                "price":"6.95",
+                "detail":"3 Wicked Wings with 1 Regular Chips and 1 Regular Drink"
+            },
+            {
+                "img":"img/chicken/9.jpg",
+                "name":"3 Wicked Wings ",
+                "price":"3.95",
+                "detail":""
+            },
+            {
+                "img":"img/chicken/10.jpg",
+                "name":"6 Wicked Wings Combo ",
+                "price":"9.95",
+                "detail":"6 Wicked Wings with 1 Regular Chips and 1 Regular Drink"
+            },
+            {
+                "img":"img/chicken/11.jpg",
+                "name":"6 Wicked Wings ",
+                "price":"6.95",
+                "detail":""
+            },
+            {
+                "img":"img/chicken/12.jpg",
+                "name":"10 Wicked Wings Combo ",
+                "price":"13.95",
+                "detail":"10 Wicked Wings with 1 Regular Chips and 1 Regular Drink"
+            },
+            {
+                
+                "img":"img/chicken/13.jpg",
+                "name":"10 Wicked Wings ",
+                "price":"10.95",
+                "detail":""
+            },
+            {
+                
+                "img":"img/chicken/14.jpg",
+                "name":"5 Original Tenders Combo ",
+                "price":"12.95",
+                "detail":"5 Tenders, 2 Aioli Dipping Sauce, 1 Regular Chips and 1 Regular drink"
+            },
+            {        "img":"img/chicken/15.jpg",
+                "name":"5 Original Tenders ",
+                "price":"9.95",
+                "detail":"2 Dipping Sauces"
+            },
+            {
+                "img":"img/chicken/16.jpg",
+                "name":"3 Original Tenders Combo ",
+                "price":"9.95",
+                "detail":"3 Tenders, 1 Aioli Dipping Sauce, 1 Regular Chips and 1 Regular Drink."
+            },
+            {
+                "img":"img/chicken/17.jpg",
+                "name":"3 Original Tenders ",
+                "price":"6.95",
+                "detail":"1 Dipping Sauce"
+            },
+            {
+                "img":"img/chicken/18.jpg",
+                "name":"3 Nugget Combo ",
+                "price":"8.95",
+                "detail":"6 Nuggets,1 Dipping Sauce, 1 Regular Chips and 1 Regular Drink."
+            },
+            {
+                "img":"img/chicken/19.jpg",
+                "name":"6 Nugget ",
+                "price":"5.95",
+                "detail":"1 Dipping Sauce"
+                
+            },
+            {
+                "img":"img/chicken/20.jpg",
+                "name":"10 Nugget Combo ",
+                "price":"11.95",
+                "detail":"10 Nuggets, 2 Dipping Sauces, 1 Regular Chips and 1 Regular Drink."
+                
+            },
+            {
+                "img":"img/chicken/21.jpg",
+                "name":"10 Nugget ",
+                "price":"8.95",
+                "detail":"2 Dipping Sauces"
+            }
+            
+        ]
+    },
+    {
+        "img":"img/pickup/7.jpg",
+        "content":"Snacks & Kids Meals",
+        "link":"snacks",
+        "items":[
+            {
+                "img":"img/snackskidsmeals/1.jpg",
+                "name":"Go Bucket 1 Orginal Tender",
+                "price":"3.95",
+                "detail":"1 Tender with 1 Portion of Chips."
+        
+        
+            },
+            {
+                "img":"img/snackskidsmeals/2.jpg",
+                "name":"Go Bucket Popcorn Chicken",
+                "price":"3.95",
+                "detail":"Popcorn Chicken with 1 Portion of Chips."
+            },
+            {
+                "img":"img/snackskidsmeals/3.jpg",
+                "name":"Go Bucket 2 Wicked Wings",
+                "price":"3.95",
+                "detail":"2 Wicked Wings with 1 Portion of Chips."
+            },
+            {
+                "img":"img/snackskidsmeals/4.jpg",
+                "name":"Go Bucket 3 Nuggets",
+                "price":"3.95",
+                "detail":"3 Nuggets with 1 Portion of Chips."
+            },
+            {
+                "img":"img/snackskidsmeals/5.jpg",
+                "name":"Original Supercharged Slider",
+                "price":"2.95",
+                "detail":""
+            },
+            {
+                "img":"img/snackskidsmeals/6.jpg",
+                "name":"Original Pepper Mayo Slider",
+                "price":"2.95",
+                "detail":""
+            },
+            {
+                "img":"img/snackskidsmeals/7.jpg",
+                "name":"Original BBQ  Slider",
+                "price":"2.95",
+                "detail":""
+            },
+            {
+                "img":"img/snackskidsmeals/8.jpg",
+                "name":"3 Wicked Wings",
+                "price":"3.95",
+                "detail":""
+            },
+            {
+                "img":"img/snackskidsmeals/9.jpg",
+                "name":"Kids Meal with Snack Popcorn Chicken",
+                "price":"4.95",
+                "detail":"Snack Popcorn Chicken with 1 Portion of Chips and 1 Bottle of Water"
+            },
+            {"img":"img/snackskidsmeals/10.jpg",
+                "name":"Kids Meal with BBQ Slider",
+                "price":"4.95",
+                "detail":"Slider with 1 Regular Coleslaw and 1 Bottled Water"
+               
+            }
+        
+        ]
+    },
+    {
+        "img":"img/pickup/8.jpg",
+        "content":"Sides",
+        "link":"sides",
+        "items":[
+            {   "img":"img/sides/1.jpg",
+                "name":"Large Chips",
+                "price":"4.95",
+                "detail":""
+            },
+        
+            {
+                "img":"img/sides/2.jpg",
+                "name":"Regular Chips",
+                "price":"2.95",
+                "detail":""
+            },
+            {"img":"img/sides/3.jpg",
+                "name":"Regular Potato & Gravy",
+                "price":"3.75",
+                "detail":""
+        
+            },
+            {
+                "img":"img/sides/4.jpg",
+                "name":"Large Coleslaw",
+                "price":"5.95",
+                "detail":""
+            },
+            {
+                "img":"img/sides/5.jpg",
+                "name":"Large Coleslaw",
+                "price":"3.75",
+                "detail":""
+            },
+            {
+                "img":"img/sides/6.jpg",
+                "name":"Large Coleslaw",
+                "price":"3.75",
+                "detail":""
+            },
+            {
+                "img":"img/sides/7.jpg",
+                "name":"Dinner Roll",
+                "price":"0.95",
+                "detail":""
+            },
+            {
+                "img":"img/sides/8.jpg",
+                "name":"Chocolate Mouse",
+                "price":"2.5",
+                "detail":""  
+            },
+            {
+                "img":"img/sides/9.jpg",
+                "name":"Dipping Sauces",
+                "price":"0.5",
+                "detail":""
+            }
+        ]
+    },
+    {
+        "img":"img/pickup/9.jpg",
+        "content":"Drinks",
+        "link":"drinks",
+        "items":[
+            {   "img":"img/drinks/1.jpg",
+                "name": "Pepsi Max",
+                "price":"3.10",
+                "detail":""
+        
+            },
+            {   "img":"img/drinks/2.jpg",
+                "name": "Pepsi",
+                "price":"3.10",
+                "detail":""
+        
+            }, 
+            {
+                "img":"img/drinks/3.jpg",
+                "name": "7Up",
+                "price":"3.10",
+                "detail":""
+            },
+            {
+                "img":"img/drinks/4.jpg",
+                "name": "Mountain Dew",
+                "price":"3.10",
+                "detail":""
+            },
+            {
+                "img":"img/drinks/5.jpg",
+                "name": "Solo",
+                "price":"3.10",
+                "detail":""
+            },
+            {
+                "img":"img/drinks/6.jpg",
+                "name": "Sunkist",
+                "price":"3.10",
+                "detail":""
+            },
+            {
+                "img":"img/drinks/7.jpg",
+                "name": "Bottled Water",
+                "price":"3.10",
+                "detail":""
+            },
+            {
+                
+                "img":"img/drinks/8.jpg",
+                "name": "Orange Juice",
+                "price":"3.10",
+                "detail":""
+        
+            },
+            {
+                "img":"img/drinks/9.jpg",
+                "name": "Apple Juice",
+                "price":"3.10",
+                "detail":""
+            },
+            {
+                "img":"img/drinks/10.jpg",
+                "name": "Lipton Peach Ice Tea",
+                "price":"4.10",
+                "detail":""
+            }
+        ]
+    }
+]

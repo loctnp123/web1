@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="style/kfc.css">
+    <link rel="stylesheet" href="style/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <title>Order KFC Online Menu | KFC Menu For Sharing</title>
+    <link rel="icon" href="img/icon.png">
+</head>
+<body ng-app="kfcApp" ng-controller="pickupController">
+    <header id="header">
+        <div>
+            <a href="Homepage.html">
+                <img src="img/icon.png" alt="">
+            </a>
+            <div id="header-link">
+                <a href="Team15_Cart.html"><i class="fa fa-shopping-basket" aria-hidden="true"></i> <span id="total">$0.00</span></a>
+                <a href="Team15_LogIn.html">Sign In
+                    <i class="fa fa-user" aria-hidden="true"></i>
+                </a>
+                <a href="Team15_Contact.html"><i class="fa fa-phone" aria-hidden="true"></i> Contact us</a>
+                <a href="Team15_Introduce.html"><i class="fa fa-info" aria-hidden="true"></i> Introduce</a>
+            </div>
+        </div>
+        <nav>
+            <div>
+                <a href="Team15_PickUp.html"><img src="img/shop.png" alt="">PICKUP</a><a href="Team15_Delivery.html"><img src="img/moto.png" alt="">DELIVERY</a><a href=""><img src="img/cuisine.png" alt="">CATERING</a>
+            </div>
+            <div>
+                <a href="">Set your KFC store to see local menu and pricing</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div id="main-index">
+            <div class="container">
+                <h2>
+                 CONTACT US
+                </h2>
+                <div class="content-ct">
+                    <hr  />
+                    <div class="group">
+                        <div class="content1">Work Place</div>
+                        <br />
+                        <div class="content2">
+                        <i>251-CHU VAN AN- BINH THANH DISTRICT-HCM CITY</i>
+                        </div>
+                    </div>
+                    <div class="group">
+                        <div class="content1">Our Email</div>
+                        <br />
+                        <div class="content2">
+                          <i> team15@gmail.com</i>
+                        </div>
+                    </div>
+                    <div class="group">
+                        <div class="content1">Telephone number</div>
+                        <br />
+                        <div class="content2">
+                         <i>   035.491.4590(Ms Cường)</i>
+                        </div>
+                    </div>
+                    <div class="group">
+                        <div class="content1">Social Media</div><br>
+                        <div class="content2">
+                            <a href="https://www.facebook.com/KFCAustralia/"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                            <a href="https://www.instagram.com/kfcaustralia/?hl=en"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                            <a href="https://twitter.com/kfcaustralia?lang=en"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            <a href="https://www.snapchat.com/add/kfcaustralia"><i class="fa fa-snapchat-ghost" aria-hidden="true"></i></a>
+                            <a href="https://www.linkedin.com/company/kfc-south-pacific/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                            <a href="http://www.youtube.com/user/KFCAustralia"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                    <div class="group">
+                        <div class="content1">Working time</div>
+                        <br />
+                        <div class="content2">
+                            <b><i>From Moday to Friday</i></b>
+                         
+                        </div> <br>
+                        <div class="content2">
+                         <i>   From 8:00 AM to 10:00 PM</i>
+                        </div>
+                    </div>
+    
+                    <div class="all"><label class="label" placeholder=" SEND FEEDBACK FOR US "></label></div>
+                    <hr  />
+                    <div class="all">
+                        <div class="group">
+                            <input type="text" class="input" id="name" name="name" placeholder="Input your name...">
+                        </div>
+    
+                        <div class="group">
+                            <div class="group1">
+                                <input type="text" class="input" id="mail" name="mail" placeholder="Input your email...">
+                            </div>
+                            <div class="group2">
+                                <input type="text" class="input" id="phone" name="phone" placeholder="Input your phone number...">
+                            </div>
+                        </div>
+                        <div class="group">
+                            <textarea type="text" id="response" class="textarea" name="response" placeholder="Enter your feedback"></textarea>
+                        </div>
+                            <input type="submit" class="button" value="SEND FEEDBACK" onclick="check(); ">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div>
+            <h1>Find your nearest restaurant</h1>
+            <button>KFC NEAR ME</button>
+        </div>
+        <div ng-controller="footerController">
+            <ul ng-repeat="item in footer" id="{{item.link}}">
+                <a class="btn" href="#{{item.link}}">{{item.content}}</a>
+                <div class="submenu">
+                    <li ng-repeat="detail in item.details" ><a href={{detail.link}}>{{detail.content}}</a></li>
+                </div>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <li><a href="">Terms</a></li>
+                <li><a href="">Privacy</a></li>
+                <li><a href="">Yum</a></li>
+            </ul>
+            © 2020 KFC Australia. All rights reserved. Version: 3.4.7647.31628
+        </div>
+    </footer>
+    <script src="kfc.js"></script>
+    <script >
+          function check()
+          {
+              var arr=document.getElementsByTagName("input");
+            var name=arr[0].value;
+            var mail=arr[1].value;
+            var phone=arr[2].value;
+            var response=document.getElementById("response").value;
+           if(name==""||phone==""||mail==""||response=="")
+           {
+               alert("Please Fill all Fields");
+               return;
+           }
+           var reg_email =/^[A-Za-z0-9]+([_\.\-]?[A-Za-z0-9])*@[A-Za-z0-9]+([\.\-]?[A-Za-z0-9]+)*(\.[A-Za-z]+)+$/;
+   
+       if(reg_email.test(mail)==false)
+        {  alert("Email Incorrect");
+        return;
+        }
+        if(isNaN(phone)||phone.length!=10 )
+        {
+            alert("Phone Incorrect");
+            return;
+        }
+           else{
+               alert("Send Feedback Successful");
+               location.href='Homepage.html';
+           }
+
+          }
+    </script>
+</body>
+</html>
